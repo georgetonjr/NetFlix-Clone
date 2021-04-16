@@ -43,7 +43,7 @@ header nav a:hover {
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/capa-house.jpg");
+    url("https://img.youtube.com/vi/3-2Pj5hxwrw/maxresdefault.jpg");
 
   height: 400px;
   background-size: cover;
@@ -52,6 +52,8 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+
+  margin-bottom: 10px;
 }
 
 .filme-principal .descricao {
@@ -99,6 +101,15 @@ header nav a:hover {
   width: 100%;
   display: block;
 }
+
 .carrosel-filmes {
   margin-top: 5px;
+}
+
+.categoria {
+  margin: 0 0 10px 15px;
+}
+
+.categoria .categoria-titulo {
+  font-size: 22px;
 }
